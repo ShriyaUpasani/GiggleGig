@@ -141,7 +141,7 @@ export function EntryForm({ type, entries, onChange }) {
             <div className="grid grid-cols-2 gap-4">
               <div className="space-y-2">
                 <Input
-                  placeholder="Title/Position"
+                  placeholder="Degree/Position"
                   {...register("title")}
                   error={errors.title}
                 />
@@ -151,7 +151,7 @@ export function EntryForm({ type, entries, onChange }) {
               </div>
               <div className="space-y-2">
                 <Input
-                  placeholder="Organization/Company"
+                  placeholder="University/Company"
                   {...register("organization")}
                   error={errors.organization}
                 />
